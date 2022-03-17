@@ -10,7 +10,8 @@ func main() {
 	fmt.Println("compartenos tu peso")
 	fmt.Scanf("%f", &weight)
 	if weight > 80 {
-		fmt.Println("estas empezando a tener exceso de peso", nombre, "te recomendar bajar al menos a ", weight-5.0, "kg")
+		weight = weight - 8.0
+		fmt.Printf("estas empezando a tener exceso de peso %v \n te recomendamos bajar al menos a %v kg", nombre, weight)
 	}
 
 }
