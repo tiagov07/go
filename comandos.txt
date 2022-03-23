@@ -1,0 +1,4 @@
+chmod +x ./Mega-Script_20220222.sh // chmod +x y la direccion del archivo al que quieres darle permisos
+./Mega-Script_20220222.sh 
+
+shift + command + 3 // para pantallazos
